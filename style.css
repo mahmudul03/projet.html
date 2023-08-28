@@ -88,14 +88,79 @@ table{
     color: #d71414;
  }
 
+ .footer-container{
+    
+ }
+.footer-container{
+    width: 100%;
+    background: #151414; 
+    margin-top: 20px;
 
-
-
-
-
-
-
-
-.footer{
-    margin: 300px;
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+    
+    justify-content: space-between;
 }
+.footer-container div h2{
+    font-size: 30px ;
+    text-align: center;
+    color: #aa2727;
+}
+.footer-container div p{
+    color: #532929;
+    text-align: center;
+    margin: 15px 0;
+}
+.footer-container div ul{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.footer-container div ul li{
+    color: #4b3131;
+    line-height: 2;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-icons i{
+    font-size: 30px;
+    color: #fff;
+    
+}
+.footer-left{
+    flex-basis: 50%;
+}
+.footer-right{
+    flex-basis: 25%;
+}
+.footer-right h3{
+    color: blue;
+}
+ 
+.footer-right input {
+    padding: 12px;
+    width: 80%;
+    margin: 15px 0;
+    background:  wheat;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.footer-right button{
+     
+    padding: 10px 30px;
+    margin: auto;
+    background: wheat;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
+}
+
+
+
+
+
+
+
+
+ 

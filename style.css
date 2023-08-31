@@ -35,8 +35,8 @@
 .main-body{
     min-width: 80%;
     margin: auto;
-     text-align: center;
-     color: blue;
+    text-align: center;
+    color: blue;
     
     text-shadow: 3px 3px 20px #ff99cc;
  
@@ -88,9 +88,7 @@ table{
     color: #d71414;
  }
 
- .footer-container{
-    
- }
+ 
 .footer-container{
     width: 100%;
     background: #151414; 
